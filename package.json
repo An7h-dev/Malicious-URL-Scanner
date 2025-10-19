@@ -1,0 +1,22 @@
+{
+  "name": "phishing-detection-system",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "browser-extension",
+    "web-application/frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install -ws",
+    "dev:backend": "cross-env FLASK_APP=web-application/backend/app.py FLASK_ENV=development flask run --host=0.0.0.0 --port=5000",
+    "dev:backend:win": "set FLASK_APP=web-application/backend/app.py && set FLASK_ENV=development && flask run --host=0.0.0.0 --port=5000",
+    "dev:frontend": "npm --workspace web-application/frontend run dev",
+    "build:extension": "npm --workspace browser-extension run build",
+    "start": "npm-run-all -p dev:backend dev:frontend",
+    "postinstall": "echo Root install complete"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

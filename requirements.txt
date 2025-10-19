@@ -1,0 +1,63 @@
+# Core ML & Data
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+joblib>=1.3.0
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99
+sentence-transformers>=2.2.0
+xgboost>=1.7.0
+lightgbm>=4.0.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# HTML & Webpage Parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+requests>=2.31.0
+tldextract>=5.1.0
+
+# Host & SSL Analysis
+python-whois>=0.9.0
+certifi>=2023.0.0
+
+# Image & Visual Analysis
+opencv-python>=4.8.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+
+# Browser Automation & Screenshot
+selenium>=4.15.0
+playwright>=1.40.0
+
+# Backend / API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+aiohttp>=3.9.0
+python-multipart>=0.0.6
+
+# Utility / Monitoring
+tqdm>=4.66.0
+loguru>=0.7.0
+colorama>=0.4.6
+
+# Optional (for model evaluation & testing)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Additional dependencies for the phishing detection system
+Flask>=3.0.0
+flask-cors>=4.0.0
+pymongo>=4.9.0
+redis>=5.0.0
+python-dotenv>=1.0.0
+dnspython>=2.7.0
+flask-restx>=1.3.0
+pydantic>=2.9.0

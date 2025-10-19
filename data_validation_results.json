@@ -1,0 +1,13 @@
+{
+  "dataset_existence": true,
+  "train_samples": 188296,
+  "test_samples": 47074,
+  "feature_dimensions": true,
+  "train_columns": 118,
+  "test_columns": 118,
+  "url_text": true,
+  "train_url_validity": 100.0,
+  "test_url_validity": 100.0,
+  "label_distribution": true,
+  "train_labels": {
+    "1.0": 
